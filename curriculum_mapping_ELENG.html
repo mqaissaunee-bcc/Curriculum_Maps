@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Mapping - ELENG Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #F5F5F5;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: #003366;
+            color: #FFFFFF;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        h2 {
+            color: #003366;
+            font-size: 22px;
+            margin-top: 30px;
+            border-bottom: 3px solid #003366;
+            padding-bottom: 8px;
+        }
+        h3 {
+            color: #003366;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .program-info {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .mapping-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .mapping-table th {
+            background-color: #003366;
+            color: #FFFFFF;
+            padding: 15px 10px;
+            text-align: left;
+            font-size: 13px;
+            border: 2px solid #003366;
+            vertical-align: top;
+            font-weight: bold;
+        }
+        .mapping-table td {
+            padding: 12px 10px;
+            border: 1px solid #CCCCCC;
+            vertical-align: top;
+            font-size: 12px;
+            color: #000000;
+        }
+        .course-header {
+            background-color: #E6F2FF;
+            font-weight: bold;
+            color: #000000;
+        }
+        .plo-header {
+            width: 21%;
+        }
+        .course-column {
+            width: 16%;
+        }
+        .uncertain {
+            background-color: #FFFFCC;
+            font-style: italic;
+            color: #000000;
+        }
+        .no-mapping {
+            background-color: #F0F0F0;
+            color: #666666;
+            text-align: center;
+            font-style: italic;
+        }
+        .legend {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-left: 5px solid #003366;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend-item {
+            margin: 8px 0;
+            font-size: 13px;
+            color: #000000;
+        }
+        .plo-description {
+            font-size: 12px;
+            color: #FFFFFF;
+            margin-top: 5px;
+            font-weight: normal;
+        }
+        .key-findings {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-left: 5px solid #006633;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .finding-category {
+            margin: 15px 0;
+        }
+        .finding-category h4 {
+            color: #006633;
+            margin: 10px 0 5px 0;
+            font-size: 15px;
+        }
+        .finding-category ul {
+            margin: 5px 0;
+            padding-left: 25px;
+        }
+        .finding-category li {
+            margin: 5px 0;
+            color: #000000;
+        }
+        .substitution-note {
+            background-color: #FFF3CD;
+            border: 2px solid #FF9900;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .substitution-note strong {
+            color: #CC6600;
+        }
+        a {
+            color: #0066CC;
+            text-decoration: underline;
+        }
+        a:hover, a:focus {
+            color: #003366;
+            outline: 2px solid #0066CC;
+        }
+        .sr-only {
+            position: absolute;
+            left: -10000px;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" role="banner">
+        <h1>Curriculum Mapping</h1>
+        <div class="program-info"><strong>Program Name:</strong> Electronics Technology, Electrical Engineering Technology Option, A.A.S</div>
+        <div class="program-info"><strong>Program Code:</strong> ELENG</div>
+    </div>
+
+    <main role="main">
+        <div class="substitution-note" role="note" aria-label="Course substitution notice">
+            <strong>Course Substitutions:</strong> This curriculum mapping reflects the following program modifications from the original Electronics Program:
+            <ul>
+                <li><strong>ENGI103</strong> (Engineering Problem Solving with Computers) replaces COMP135 and COMP137, providing stronger computational problem-solving skills relevant to modern engineering practice</li>
+                <li><strong>PHYS111</strong> (General Physics I) and <strong>PHYS112</strong> (General Physics II) are included as essential physics foundations for electrical engineering</li>
+                <li><strong>MATH171</strong> (Calculus I) replaces MATH152 and MATH153, providing calculus-based mathematical foundations required for engineering analysis</li>
+                <li><strong>ECON107</strong> (Economics) is included to provide understanding of economic principles in engineering decisions</li>
+            </ul>
+        </div>
+
+        <section aria-labelledby="plo-heading">
+            <h2 id="plo-heading">Program Learning Outcomes (PLOs)</h2>
+            <div class="legend">
+                <div class="legend-item"><strong>PLO 1:</strong> Perform engineering analysis and problem solving</div>
+                <div class="legend-item"><strong>PLO 2:</strong> Develop an engineering design to meet given specifications</div>
+                <div class="legend-item"><strong>PLO 3:</strong> Work effectively in diverse teams and provide leadership to teams and organizations</div>
+                <div class="legend-item"><strong>PLO 4:</strong> Communicate effectively in oral, graphic, and written form</div>
+            </div>
+        </section>
+
+        <section aria-labelledby="key-findings-heading">
+            <h2 id="key-findings-heading">Key Findings</h2>
+            <div class="key-findings">
+                <div class="finding-category">
+                    <h4>Strong Coverage Areas</h4>
+                    <ul>
+                        <li><strong>PLO 1 (Analysis & Problem Solving):</strong> Exceptionally comprehensive coverage across all courses, with particularly strong emphasis in ELEC series, ENGI103, MATH171, and Physics courses. The calculus-based mathematics and physics provide rigorous analytical foundations</li>
+                        <li><strong>PLO 2 (Engineering Design):</strong> Well-covered in electronics courses (ELEC series) with hands-on design components, computational design tools (ENGI103, ELEC101), and practical applications throughout the curriculum</li>
+                        <li><strong>PLO 4 (Communication):</strong> Consistently addressed through laboratory reports, technical documentation, and professional communication requirements across multiple courses</li>
+                    </ul>
+                </div>
+
+                <div class="finding-category">
+                    <h4>Areas Requiring Attention</h4>
+                    <ul>
+                        <li><strong>PLO 3 (Teamwork & Leadership):</strong> Critical gap identified - only ELEC225 explicitly addresses teamwork. This is a significant deficiency for an engineering technology program. <strong>Recommendation:</strong> Add collaborative projects or team-based activities to at least 3-4 additional courses, particularly ELEC241, ENGI103, and senior-level courses</li>
+                        <li><strong>ENGI103 Integration:</strong> Consider adding group programming projects to strengthen PLO 3 coverage while reinforcing computational skills</li>
+                        <li><strong>ECON107 Application:</strong> Economic principles should be explicitly connected to engineering decision-making scenarios to strengthen PLO 1 mapping</li>
+                    </ul>
+                </div>
+
+                <div class="finding-category">
+                    <h4>Program Substitution Impact</h4>
+                    <ul>
+                        <li><strong>ENGI103 vs. COMP135/COMP137:</strong> ENGI103 (MATLAB programming) provides superior support for engineering problem-solving (PLO 1) and computational design (PLO 2) compared to assembly language and general programming courses. Modern engineering computational tools are better aligned with industry needs</li>
+                        <li><strong>MATH171 vs. MATH152/MATH153:</strong> Calculus I provides essential mathematical foundations for engineering analysis, particularly for understanding rates of change, optimization, and advanced circuit analysis required in electrical engineering</li>
+                        <li><strong>PHYS111/PHYS112 Addition:</strong> Physics courses provide critical foundations for understanding electrical phenomena, electromagnetism, and circuit behavior at a deeper theoretical level required for engineering technology</li>
+                        <li><strong>ECON107 Addition:</strong> Economics provides context for engineering decision-making, cost analysis, and understanding market forces that impact engineering projects</li>
+                    </ul>
+                </div>
+
+                <div class="finding-category">
+                    <h4>Program Strengths</h4>
+                    <ul>
+                        <li>Excellent mathematical preparation: Calculus I provides rigorous analytical tools for electrical engineering</li>
+                        <li>Strong integration of theory and practice through laboratory work in ELEC series</li>
+                        <li>Comprehensive progression from foundational skills through advanced applications</li>
+                        <li>Modern computational tools (MATLAB, PSpice) integrated throughout curriculum</li>
+                        <li>Physics foundations provide deep understanding of electrical phenomena</li>
+                        <li>Balanced coverage of analog and digital electronics</li>
+                    </ul>
+                </div>
+
+                <div class="finding-category">
+                    <h4>Recommendations</h4>
+                    <ul>
+                        <li><strong>Priority:</strong> Enhance PLO 3 coverage by incorporating team-based projects in at least 3-4 courses beyond ELEC225</li>
+                        <li>Add peer review activities to strengthen both teamwork and communication skills</li>
+                        <li>Explicitly connect ECON107 content to engineering decision-making and project economics</li>
+                        <li>Consider adding a capstone project that integrates teamwork, design, analysis, and communication</li>
+                        <li>Document any informal teamwork activities already occurring in courses where mapping shows no PLO 3 coverage</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section aria-labelledby="mapping-heading">
+            <h2 id="mapping-heading">Course Learning Outcomes Mapped to Program Learning Outcomes</h2>
+            
+            <table class="mapping-table" role="table" aria-label="Curriculum mapping table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="course-column">Career Course</th>
+                        <th scope="col" class="plo-header">
+                            PLO 1
+                            <div class="plo-description">Perform engineering analysis and problem solving</div>
+                        </th>
+                        <th scope="col" class="plo-header">
+                            PLO 2
+                            <div class="plo-description">Develop engineering design</div>
+                        </th>
+                        <th scope="col" class="plo-header">
+                            PLO 3
+                            <div class="plo-description">Work effectively in teams</div>
+                        </th>
+                        <th scope="col" class="plo-header">
+                            PLO 4
+                            <div class="plo-description">Communicate effectively</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- ENGI103 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ENGI103</strong><br>
+                            Engineering Problem Solving with Computers<br>
+                            <em>(3 credits)</em><br>
+                            <span style="font-size: 11px; color: #CC6600;">Replaces COMP135 & COMP137</span>
+                        </td>
+                        <td><strong>CLO1:</strong> Demonstrate understanding of MATLAB fundamental concepts<br><br><strong>CLO2:</strong> Write programs in MATLAB<br><br><strong>CLO3:</strong> Solve engineering problems using MATLAB</td>
+                        <td><strong>CLO2:</strong> Write programs in MATLAB to design solutions<br><br><strong>CLO3:</strong> Solve engineering problems using MATLAB (computational design focus)</td>
+                        <td class="no-mapping">No direct mapping - Consider adding collaborative programming projects</td>
+                        <td>Limited mapping - Technical documentation of MATLAB programs could support this outcome</td>
+                    </tr>
+
+                    <!-- ELEC103 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC103</strong><br>
+                            Electrical Skills and Techniques<br>
+                            <em>(4 credits)</em>
+                        </td>
+                        <td><strong>CLO1:</strong> Build electrical circuits and take measurements (Mathematical/Scientific Reasoning, Technological Literacy)<br><br><strong>CLO2:</strong> Interpret data (Critical Thinking)</td>
+                        <td><strong>CLO1:</strong> Build electrical circuits (hands-on design and construction)</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO3:</strong> Create and write laboratory reports (Communication)</td>
+                    </tr>
+
+                    <!-- ELEC101 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC101</strong><br>
+                            Computer Aided Circuit Analysis<br>
+                            <em>(3 credits)</em>
+                        </td>
+                        <td><strong>CLO3:</strong> Use PSpice Schematic Editor to draw and edit circuit schematics<br><br><strong>CLO4:</strong> Use PSpice to create, analyze, and troubleshoot circuits</td>
+                        <td><strong>CLO3:</strong> Use PSpice Schematic Editor for circuit design<br><br><strong>CLO4:</strong> Create circuit schematics for design analysis</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO1:</strong> Use personal computer, Windows, Microsoft Word, email, internet to generate and submit computer-aided circuit analysis reports</td>
+                    </tr>
+
+                    <!-- ELEC111 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC111</strong><br>
+                            Electrical Circuits I<br>
+                            <em>(4 credits)</em>
+                        </td>
+                        <td><strong>CLO1:</strong> Design and build electrical circuits and make measurements, read and interpret data<br><br><strong>CLO4:</strong> Analyze measured data and verify circuit theory</td>
+                        <td><strong>CLO1:</strong> Design and build electrical circuits (hands-on design implementation)</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO2:</strong> Use Excel to enter and chart data<br><br><strong>CLO3:</strong> Write laboratory reports according to professional standards</td>
+                    </tr>
+
+                    <!-- ELEC112 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC112</strong><br>
+                            Electrical Circuits II<br>
+                            <em>(4 credits)</em>
+                        </td>
+                        <td><strong>CLO2:</strong> Take measurements<br><br><strong>CLO3:</strong> Analyze measured data<br><br><strong>CLO5:</strong> Verify electrical circuit theory<br><br><strong>CLO6:</strong> Read and interpret data</td>
+                        <td><strong>CLO1:</strong> Design and build electrical circuits</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO7:</strong> Write laboratory reports according to professional standards</td>
+                    </tr>
+
+                    <!-- ELEC225 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC225</strong><br>
+                            Fundamentals of Analog Electronic Devices<br>
+                            <em>(4 credits)</em>
+                        </td>
+                        <td><strong>CLO1:</strong> Identify, formulate, and solve electronic circuit problems<br><br><strong>CLO3:</strong> Use techniques, skills, and modern engineering tools<br><br><strong>CLO4:</strong> Conduct, analyze and interpret experiments<br><br><strong>CLO5:</strong> Apply Ohm's and Kirchhoff's laws<br><br><strong>CLO6:</strong> Perform basic DC and AC circuit analysis<br><br><strong>CLO7:</strong> Use standard lab equipment<br><br><strong>CLO8:</strong> Use engineering circuit simulation software</td>
+                        <td><strong>CLO2:</strong> Design a system or process to meet desired needs<br><br><strong>CLO3:</strong> Use modern engineering tools for design</td>
+                        <td><strong>CLO9:</strong> Function effectively on teams</td>
+                        <td><strong>CLO10:</strong> Communicate effectively</td>
+                    </tr>
+
+                    <!-- ELEC241 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ELEC241</strong><br>
+                            Introduction to Digital Circuits<br>
+                            <em>(4 credits)</em>
+                        </td>
+                        <td>Quantitatively identify fundamentals of computers including number systems, logic gates<br><br>Gain practical skills through problem solving and hands-on laboratory experience<br><br>Core Competency: Mathematical/Scientific Reasoning</td>
+                        <td>Analyze and design simple logic circuits using Boolean Algebra and Karnaugh Mapping<br><br>Design digital systems to meet specifications</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td>Core Competency: Communication<br><br>Draw logic diagrams using traditional and IEEE/IEC standards</td>
+                    </tr>
+
+                    <!-- MATH171 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>MATH171</strong><br>
+                            Calculus I<br>
+                            <em>(4 credits)</em><br>
+                            <span style="font-size: 11px; color: #CC6600;">Replaces MATH152 & MATH153</span>
+                        </td>
+                        <td><strong>CLO1:</strong> Demonstrate algebraic and calculus skills related to limit, continuity, derivative, and definite integral (M)<br><br><strong>CLO2:</strong> Understand and explain concepts of limit, continuity, derivative, and definite integral (M)<br><br><strong>CLO3:</strong> Use calculus to solve application problems (M)<br><br><strong>CLO5:</strong> Use computer software to understand concepts and solve problems (M)</td>
+                        <td><strong>CLO3:</strong> Use calculus to solve application problems - provides mathematical tools for engineering design optimization</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO4:</strong> Explain the analysis and solution of application problems (M)</td>
+                    </tr>
+
+                    <!-- ECON107 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>ECON107</strong><br>
+                            Economics<br>
+                            <em>(3 credits)</em><br>
+                            <span style="font-size: 11px; color: #CC6600;">Added for ELENG</span>
+                        </td>
+                        <td><strong>CLO1:</strong> Identify and analyze historical and/or societal issues impacting economic trends<br><br><strong>CLO2:</strong> Think critically to analyze information and solve economic problems<br><br><strong>CLO3:</strong> Use mathematical skills to organize information and test economic theories</td>
+                        <td class="uncertain">Limited mapping - Economic principles can inform engineering design decisions regarding cost and resource allocation</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO5:</strong> Collect, analyze, organize and evaluate information, synthesize and present in written format</td>
+                    </tr>
+
+                    <!-- PHYS111 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>PHYS111</strong><br>
+                            General Physics I: Non-Calculus<br>
+                            <em>(4 credits)</em><br>
+                            <span style="font-size: 11px; color: #CC6600;">Added for ELENG</span>
+                        </td>
+                        <td><strong>CLO2:</strong> Apply scientific method, fundamental principles of physics and mathematical techniques to solve problems in mechanics (MATHEMATICAL/SCIENTIFIC REASONING & CRITICAL THINKING)<br><br><strong>CLO3:</strong> Use instruments and computers to gather and analyze data (TECHNOLOGICAL LITERACY)</td>
+                        <td>Understanding of physical principles supports engineering design - mechanical systems, energy, forces</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO1:</strong> Communicate information and ideas about basic concepts of experimental and theoretical physics clearly and effectively in written and spoken form (COMMUNICATION & INFORMATION LITERACY)</td>
+                    </tr>
+
+                    <!-- PHYS112 -->
+                    <tr>
+                        <td class="course-header">
+                            <strong>PHYS112</strong><br>
+                            General Physics II: Non-Calculus<br>
+                            <em>(4 credits)</em><br>
+                            <span style="font-size: 11px; color: #CC6600;">Added for ELENG</span>
+                        </td>
+                        <td><strong>CLO2:</strong> Apply scientific method, fundamental principles of physics and mathematical techniques to solve problems in electromagnetism and optics (MATHEMATICAL/SCIENTIFIC REASONING & CRITICAL THINKING)<br><br><strong>CLO3:</strong> Use instruments and computers to gather and analyze data (TECHNOLOGICAL LITERACY)</td>
+                        <td>Understanding of electromagnetic principles directly supports electrical circuit design and analysis</td>
+                        <td class="no-mapping">No direct mapping</td>
+                        <td><strong>CLO1:</strong> Communicate information and ideas about basic concepts of experimental and theoretical physics in electromagnetism and optics clearly and effectively in written and spoken form (COMMUNICATION & INFORMATION LITERACY)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="legend-heading">
+            <h2 id="legend-heading">Legend and Reference Guide</h2>
+            <div class="legend">
+                <h3>Color Key</h3>
+                <div class="legend-item"><strong>Yellow shaded cells:</strong> Indicate uncertainty or limited mapping</div>
+                <div class="legend-item"><strong>Gray shaded cells:</strong> No direct mapping identified between course and program learning outcomes</div>
+                <div class="legend-item"><strong>Light blue rows:</strong> Course identification headers</div>
+                
+                <h3>Abbreviations</h3>
+                <div class="legend-item"><strong>CLO:</strong> Course Learning Outcome</div>
+                <div class="legend-item"><strong>PLO:</strong> Program Learning Outcome</div>
+                <div class="legend-item"><strong>(M):</strong> Mathematics general education knowledge area</div>
+                
+                <h3>Additional Notes</h3>
+                <div class="legend-item">This curriculum mapping reflects the ELENG program structure with significant modifications from the standard Electronics Technology program, including:</div>
+                <ul style="margin-left: 25px;">
+                    <li>ENGI103 replaces COMP135 and COMP137 for stronger computational foundations</li>
+                    <li>MATH171 (Calculus I) replaces MATH152 and MATH153 for rigorous mathematical preparation</li>
+                    <li>PHYS111 and PHYS112 added for essential physics foundations</li>
+                    <li>ECON107 added for economic analysis and decision-making skills</li>
+                </ul>
+                <div class="legend-item">The mapping is based on official course syllabi and program learning outcomes as documented in program materials.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo" style="margin-top: 40px; padding: 20px; background-color: #003366; color: #FFFFFF; text-align: center;">
+        <p>ELENG Program - Curriculum Mapping Document</p>
+        <p style="font-size: 12px;">Last Updated: November 2025</p>
+    </footer>
+</body>
+</html>
